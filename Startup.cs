@@ -64,7 +64,7 @@ namespace api
             {
                 endpoints.MapControllers();
 
-                endpoints.MapFallbackToFile("index.html"); 
+                endpoints.MapFallbackToFile("wwwroot/index.html"); 
             });
         }
     }
